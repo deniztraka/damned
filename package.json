@@ -8,6 +8,7 @@
     "dev": "webpack-dev-server --config webpack/base.js --open",
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node --max_old_space_size=2560 server.js"
   },
+  "engines": {"node": "12.x","npm": "7.x" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/photonstorm/phaser3-project-template.git"
